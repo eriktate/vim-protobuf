@@ -11,7 +11,7 @@ let b:did_indent = 1
 
 " Protobuf is like indenting C
 setlocal cindent
-setlocal expandtab
+setlocal noexpandtab
 setlocal shiftwidth=4
 
 let b:undo_indent = "setl cin<"
